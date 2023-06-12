@@ -1,4 +1,4 @@
-const socket = io.connect(process.env.PORT)
+const socket = io.connect('https://codeprof-chat-room.herokuapp.com/)
 
 const handle = document.querySelector('.handle');
 const message = document.querySelector('.message');
