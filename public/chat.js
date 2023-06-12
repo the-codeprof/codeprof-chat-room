@@ -1,4 +1,4 @@
-const socket = io.connect(process.env.PORT)
+const socket = io.connect('http://localhost:' + process.env.PORT)
 
 const handle = document.querySelector('.handle');
 const message = document.querySelector('.message');
